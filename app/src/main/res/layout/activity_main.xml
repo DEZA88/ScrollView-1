@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/teksjudul"
+        android:layout_width="match_parent"
+        android:layout_height="99dp"
+        android:background="#5EDF63"
+        android:text="@string/textjudul"
+        android:textAlignment="center"
+        android:textSize="30sp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textisi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/textisi"
+            android:textSize="14sp" />
+    </ScrollView>
+</LinearLayout>
